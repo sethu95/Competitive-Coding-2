@@ -1,5 +1,5 @@
-// Time Complexity: O(n + maxWeight) // because we want to compute all possible cases for n length and 0....maxWeight in our DP array
-// Space Complexity: O(n + maxWeight)
+// Time Complexity: O(n * maxWeight) // because we want to compute all possible cases for n length and 0....maxWeight in our DP array
+// Space Complexity: O(n * maxWeight)
 
 // We use a DP array, try to compute the best solution for each weight, with available elements
 
